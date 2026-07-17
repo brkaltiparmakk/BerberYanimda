@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.expo/
+.expo-shared/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+*.log
+.DS_Store

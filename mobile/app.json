@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "BerberYanımda",
+    "slug": "berber-yanimda",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f7f6f2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.berberyanimda.app"
+    },
+    "android": {
+      "package": "com.berberyanimda.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#273e35"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+import { StyleSheet } from 'react-native';
+
+export const screenStyles = StyleSheet.create({
+  welcome: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 24 },
+  welcomeBrand: { color: '#fff', fontSize: 24, fontWeight: '700', marginTop: 16 },
+  welcomeEyebrow: { color: '#d4a64a', fontSize: 10, fontWeight: '700', letterSpacing: 2, marginTop: 72, marginBottom: 18 },
+  welcomeTitle: { color: '#fff', fontSize: 48, fontWeight: '700', lineHeight: 52 },
+  welcomeAccent: { color: '#d4a64a', fontSize: 47, fontStyle: 'italic', fontWeight: '600', lineHeight: 53 },
+  welcomeText: { color: '#a8a8a8', fontSize: 15, lineHeight: 23, textAlign: 'center', marginTop: 20, marginBottom: 28 },
+  secondaryButton: { width: '100%', alignItems: 'center', borderWidth: 1, borderColor: '#555', borderRadius: 11, paddingVertical: 15, marginTop: 10 },
+  secondaryButtonText: { color: '#fff', fontSize: 13, fontWeight: '700' },
+  demoNote: { color: '#777', fontSize: 11, marginTop: 24 },
+  mapBox: { height: 300, backgroundColor: '#242424', borderWidth: 1, borderColor: '#3a3a3a', borderRadius: 18, overflow: 'hidden', marginBottom: 16 },
+  mapGrid: { flex: 1, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#333' },
+  mapPin: { color: '#d4a64a', fontSize: 42 },
+  mapLabel: { color: '#fff', fontSize: 14, fontWeight: '700', marginTop: 8 },
+  paymentCard: { backgroundColor: '#222', borderWidth: 1, borderColor: '#333', borderRadius: 16, padding: 18, marginVertical: 12 },
+  paymentLine: { color: '#b0b0b0', fontSize: 13, marginTop: 8 },
+  paymentTotal: { flexDirection: 'row', justifyContent: 'space-between', borderTopWidth: 1, borderTopColor: '#333', marginTop: 18, paddingTop: 16 },
+  paymentTotalLabel: { color: '#d4a64a', fontSize: 10, fontWeight: '700', letterSpacing: 1 },
+  paymentTotalPrice: { color: '#d4a64a', fontSize: 18, fontWeight: '700' },
+  paymentMethod: { backgroundColor: '#2c281f', borderRadius: 12, padding: 16, marginBottom: 18 },
+  paymentMethodTitle: { color: '#fff', fontSize: 14, fontWeight: '700' },
+  paymentMethodText: { color: '#d4a64a', fontSize: 12, marginTop: 6 },
+  panelSection: { marginTop: 28 },
+});

@@ -23,4 +23,11 @@ export const screenStyles = StyleSheet.create({
   paymentMethodTitle: { color: '#fff', fontSize: 14, fontWeight: '700' },
   paymentMethodText: { color: '#d4a64a', fontSize: 12, marginTop: 6 },
   panelSection: { marginTop: 28 },
+  statsRow: { flexDirection: 'row', gap: 8 },
+  statCard: { flex: 1, backgroundColor: '#222', borderWidth: 1, borderColor: '#333', borderRadius: 12, padding: 12 },
+  statValue: { color: '#d4a64a', fontSize: 20, fontWeight: '700' },
+  statLabel: { color: '#999', fontSize: 10, marginTop: 5 },
+  portfolioRow: { gap: 10, paddingBottom: 8, marginBottom: 18 },
+  portfolioImage: { width: 112, height: 132, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+  portfolioIcon: { color: '#fff', fontSize: 42, opacity: 0.8 },
 });
